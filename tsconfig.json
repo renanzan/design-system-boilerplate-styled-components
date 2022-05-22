@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"declaration": true,
+		"removeComments": true,
+		"noLib": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "ES6",
+		"lib": [
+			"ES6",
+			"DOM"
+		],
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"jsx": "react",
+	},
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}

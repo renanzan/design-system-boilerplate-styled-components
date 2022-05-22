@@ -5,6 +5,13 @@
 		"packages/*"
 	],
 	"devDependencies": {
-		"lerna": "^4.0.0"
+		"@babel/cli": "^7.17.10",
+		"@babel/core": "^7.18.0",
+		"@babel/preset-react": "^7.17.12",
+		"@babel/preset-typescript": "^7.17.12",
+		"lerna": "^4.0.0",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"typescript": "^4.6.4"
 	}
 }
