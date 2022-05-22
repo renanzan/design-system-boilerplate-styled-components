@@ -17,7 +17,14 @@
 		"@storybook/manager-webpack4": "^6.5.3",
 		"@storybook/react": "^6.5.3",
 		"@storybook/testing-library": "^0.0.11",
+		"@testing-library/dom": "^8.13.0",
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.2.0",
+		"@testing-library/user-event": "^13.5.0",
+		"babel-jest": "^28.1.0",
 		"babel-loader": "^8.2.5",
+		"jest": "^28.1.0",
+		"jest-environment-jsdom": "^28.1.0",
 		"lerna": "^4.0.0",
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0",
@@ -27,6 +34,8 @@
 	"scripts": {
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"build": "lerna run build"
+		"build": "lerna run build",
+		"test": "jest --maxWorkers=50%",
+		"test:watch": "jest --watch --maxWorkers=25%"
 	}
 }
