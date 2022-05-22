@@ -18,7 +18,8 @@
 		"access": "public"
 	},
 	"scripts": {
-		"bootstrap": "lerna bootstrap --use-workspaces"
+		"bootstrap": "lerna bootstrap --use-workspaces",
+		"build": "tsc --build --clean && tsc"
 	},
 	"peerDependencies": {
 		"react": "^16.8.0",
