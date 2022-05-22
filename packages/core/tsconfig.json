@@ -1,0 +1,16 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "lib",
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"lib",
+		"__stories__"
+	],
+	"include": [
+		"**/*.ts",
+		"**/*.tsx"
+	]
+}
