@@ -1,0 +1,13 @@
+{
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"conventionalCommits.scopes": [
+		"storybook",
+		"documentation",
+		"dev/component",
+		"doc/component",
+		"test/component"
+	]
+}
