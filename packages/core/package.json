@@ -17,6 +17,10 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/renanzan/design-system-boilerplate.git"
+	},
 	"scripts": {
 		"bootstrap": "lerna bootstrap --use-workspaces",
 		"build": "tsc --build --clean && tsc"

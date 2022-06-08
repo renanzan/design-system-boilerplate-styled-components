@@ -1,5 +1,5 @@
 {
-	"name": "root",
+	"name": "renanzan",
 	"private": true,
 	"workspaces": [
 		"packages/*"
@@ -35,6 +35,7 @@
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
 		"build": "lerna run build",
+		"publish:lib": "yarn build & lerna publish --registry=https://npm.pkg.github.com/",
 		"test": "jest --maxWorkers=50%",
 		"test:watch": "jest --watch --maxWorkers=25%"
 	}
